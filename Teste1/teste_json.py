@@ -14,3 +14,5 @@ i = 1
 for item in data:
     print(f"Título {i}: {item['title']}")
     i += 1
+    if i>=51:
+        exit()
